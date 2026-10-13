@@ -1,0 +1,43 @@
+# Dependencies & Environments
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build & Cache
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases & local state
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# OS & Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AI Agent tooling (developer-specific)
+.agents/
+AGENTS.md
+
+docs/agent-memory/
+
+# Temporary files
+all_files.txt
+*.log
